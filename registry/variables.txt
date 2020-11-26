@@ -1,0 +1,15 @@
+#!/bin/bash
+# global variables
+
+MYSQL_ROOT_PASSWORD="suse1234"
+PORTUS_DB_DATABASE="portus_production"
+PORTUS_DB_USERNAME="portus"
+PORTUS_DB_PASSWORD="suse1234"
+PORTUS_PASSWORD="supercomplexpassword!"
+
+CA_CERTIFICATE="rootCA.suse.crt"
+CERTIFICATE="wildcard.suse.crt"
+KEY="wildcard.suse.key"
+FQDN="registry.suse"
+RUNTIME="podman"
+
