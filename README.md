@@ -1,5 +1,7 @@
 # registry
 
+HINT: this is the first commit and push and not yet tested / work in progress
+
 Scripts to create a registry with portus
 
 1. adjust variables.txt in certificates
@@ -13,11 +15,17 @@ Scripts to create a registry with portus
 5. create database with the correct user and password:
 
 	podman exec -it mysql bash
+
 	mysql -u root -p
+
 	CREATE USER 'portus'@'%' IDENTIFIED BY '<password>';
+
 	CREATE DATABASE <database_name>;
+
 	GRANT ALL ON <database_name>.* TO 'portus'@'%';
+
 	quit
+
 	exit
 
 6. start registty.sh
