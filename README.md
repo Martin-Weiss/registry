@@ -4,6 +4,9 @@ HINT: this is the first commit and push and not yet tested / work in progress
 
 Scripts to create a registry with portus
 
+This is prepared for podman on SLES 15 SP2 so podman needs to be installed..
+Scripts are for /data/certificates and /data/registry - so place them there or adjust.
+
 1. adjust variables.txt in certificates
 
 2. create certificates with executing scripts in certificates
