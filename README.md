@@ -28,7 +28,7 @@ Scripts to create a registry with portus
 
 	exit
 
-6. start registty.sh
+6. start registry.sh
 
 7. start portus.sh
 
