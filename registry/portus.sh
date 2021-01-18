@@ -42,3 +42,15 @@ exit
 -e PORTUS_SECURITY_CLAIR_SERVER="http://$FQDN:6060" \
 # podman does not support "unless-stopped"
 --restart=unless-stopped \
+# with AD integratiom
+-e PORTUS_LDAP_ENABLED=true \
+-e PORTUS_LDAP_HOSTNAME="ldapserver.suse" \
+-e PORTUS_LDAP_ENCRYPTION_METHD="start_tls" \
+-e PORTUS_LDAP_BASE="dc=suse" \
+-e PORTUS_LDAP_ADMIN_BASE="cn=administrator,cn=users,dc=suse" \
+-e PORTUS_LDAP_GROUP_BASE="cn=users,dc=suse" \
+-e PORTUS_LDAP_UID="samaccountname" \
+-e PORTUS_LDAP_FILTER="" \
+-e PORTUS_LDAP_AUTHENTICATION_ENABLED=true \
+-e PORTUS_LDAP_AUTHENTICATION_BIND_DN="cn=serviceuser,cn=users,dc=suse" \
+-e PORTUS_LDAP_AUTHENTICATION_PASSWORD="suse1234" \
