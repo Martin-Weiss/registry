@@ -1,3 +1,9 @@
 docker.io/busybox:1.32
 docker.io/leodotcloud/swiss-army-knife:v0.11
 docker.io/rancher/shell:v0.1.5
+docker.io/minio/minio:RELEASE.2021-02-14T04-01-33Z
+docker.io/minio/mc:RELEASE.2021-02-19T05-34-40Z
+registry.suse.com/caasp/v4/389-ds:1.4.0
+registry.suse.com/sles12/registry:2.6.2
+registry.suse.com/sles12/portus:2.4.3
+registry.suse.com/sles12/mariadb:10.0

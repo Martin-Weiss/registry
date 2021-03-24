@@ -1,0 +1,11 @@
+# global variables
+
+CERTIFICATE_DIR=/data/certificates
+CA_CERTIFICATE="rootCA.suse.crt"
+CERTIFICATE="wildcard.suse.crt"
+KEY="wildcard.suse.key"
+FQDN="minio01.suse"
+RUNTIME="podman"
+
+DATA_DIR="/data/minio/data"
+
