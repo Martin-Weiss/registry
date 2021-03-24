@@ -1,0 +1,6 @@
+#!/bin/bash
+# global variables
+
+DOMAIN=$(hostname -d)
+HELMSERVER=https://helm01.$DOMAIN
+WEBSERVERPATH=/srv/www/htdocs
