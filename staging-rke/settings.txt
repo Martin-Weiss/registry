@@ -1,0 +1,15 @@
+#!/bin/bash
+
+PULL_USER="staging"
+PULL_PASSWORD="KUSLjyvg8-bKKgfZhtiQ"
+PUSH_USER="staging"
+PUSH_PASSWORD="KUSLjyvg8-bKKgfZhtiQ"
+TARGET_REGISTRY=registry01.suse:5000
+
+STAGE_0=""
+STAGE_1="rke-test"
+STAGE_2="rke-int"
+STAGE_3="rke-prod"
+
+FILES="rancher-images.txt cert-manager.txt other-images.txt rke2-images.linux-amd64.txt"
+

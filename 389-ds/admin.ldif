@@ -1,0 +1,8 @@
+dn: uid=admin,ou=users,dc=suse
+objectClass: inetOrgPerson
+cn: admin
+uid: admin
+mail: admin@suse.com
+sn: admin
+givenName: admin
+userPassword: {SSHA}cR/57MNgtVGwMU26dd60c0RPnSWOqWcd

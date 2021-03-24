@@ -1,0 +1,8 @@
+dn: uid=binduser-rancher,dc=suse
+objectClass: inetOrgPerson
+cn: binduser-rancher
+uid: binduser-rancher
+mail: binduser-rancher@suse
+sn: binduser-rancher
+givenName: binduser-rancher
+userPassword: {SSHA}7QlyffV/Klea3SHDmaIJKcTcWzEgACwu

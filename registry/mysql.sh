@@ -11,6 +11,7 @@ rm /etc/systemd/system/container-mysql.service
 systemctl daemon-reload
 $RUNTIME stop mysql
 $RUNTIME rm mysql
+mkdir -p /data/registry/mysql
 $RUNTIME run -d \
 --restart=always \
 --name mysql \

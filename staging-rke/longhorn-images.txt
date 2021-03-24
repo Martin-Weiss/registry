@@ -1,0 +1,10 @@
+docker.io/rancher/longhornio-csi-attacher:v2.2.1-lh1
+docker.io/rancher/longhornio-csi-node-driver-registrar:v1.2.0-lh1
+docker.io/rancher/longhornio-csi-provisioner:v1.6.0-lh1
+docker.io/rancher/longhornio-csi-resizertag:v0.5.1-lh1
+docker.io/rancher/longhornio-csi-snapshotter:v2.1.1-lh1
+docker.io/rancher/longhornio-longhorn-engine:v1.1.0
+docker.io/rancher/longhornio-longhorn-instance-manager:v1_20201216
+docker.io/rancher/longhornio-longhorn-manager:v1.1.0
+docker.io/rancher/longhornio-longhorn-share-manager:v1_20201204
+docker.io/rancher/longhornio-longhorn-ui:v1.1.0

@@ -1,0 +1,8 @@
+dn: uid=mweiss,ou=users,dc=suse
+objectClass: inetOrgPerson
+cn: mweiss
+uid: mweiss
+mail: martin.weiss@suse.com
+sn: weiss
+givenName: martin
+userPassword: {SSHA}cR/57MNgtVGwMU26dd60c0RPnSWOqWcd

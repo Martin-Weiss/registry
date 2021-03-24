@@ -1,0 +1,13 @@
+# global variables
+
+CERTIFICATE_DIR=/data/certificates
+CA_CERTIFICATE="rootCA.suse.crt"
+CERTIFICATE="wildcard.suse.crt"
+KEY="wildcard.suse.key"
+FQDN="ldap01.suse"
+RUNTIME="podman"
+
+DS_DM_PASSWORD="suse1234"
+DS_SUFFIX="dc=suse"
+DATA_DIR="/data/389-ds/dirsrv"
+

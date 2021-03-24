@@ -12,6 +12,8 @@ systemctl daemon-reload
 $RUNTIME stop registry
 $RUNTIME rm registry
 echo "version: 0.1" > /data/registry/config.yml
+mkdir -p /data/registry/docker-registry
+
 $RUNTIME run -d \
 --restart=always \
 --name registry \

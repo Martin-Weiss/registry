@@ -10,6 +10,6 @@ PORTUS_PASSWORD="supercomplexpassword!"
 CA_CERTIFICATE="rootCA.suse.crt"
 CERTIFICATE="wildcard.suse.crt"
 KEY="wildcard.suse.key"
-FQDN="registry.suse"
+FQDN="registry01.suse"
 RUNTIME="podman"
 

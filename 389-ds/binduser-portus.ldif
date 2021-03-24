@@ -1,0 +1,8 @@
+dn: uid=binduser-portus,dc=suse
+objectClass: inetOrgPerson
+cn: binduser-portus
+uid: binduser-portus
+mail: binduser-portus@suse
+sn: binduser-portus
+givenName: binduser-portus
+userPassword: {SSHA}7QlyffV/Klea3SHDmaIJKcTcWzEgACwu

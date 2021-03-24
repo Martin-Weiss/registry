@@ -1,0 +1,6 @@
+dn: cn=rke-int-admins,ou=groups,dc=suse
+objectClass: groupOfUniqueNames
+cn: rke-int-admins
+description: Group that gets admin rights on the cluster rke-int
+uniqueMember: uid=mweiss,ou=users,dc=suse
+uniqueMember: uid=admin,ou=users,dc=suse

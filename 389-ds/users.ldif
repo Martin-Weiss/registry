@@ -1,0 +1,5 @@
+# Users, vrz.verkehrszentrale.nrw
+dn: ou=users,dc=suse
+objectClass: top
+objectClass: organizationalunit
+ou: users
