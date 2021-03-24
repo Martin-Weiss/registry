@@ -8,13 +8,13 @@ function _GET_REGISTRIES_LIST {
 function _GET_IMAGES_LIST {
 	_GET_REGISTRIES_LIST
 	FILTER=$(echo $(for REGISTRY in $REGISTRIES; do echo -n ^$REGISTRY\|; done)|sed 's/.$//g')
-        IMAGES=$(./docker-ls repositories --registry https://$TARGET_REGISTRY -u $PULL_USER -p $PULL_PASSWORD --table|grep -v ^REPOSITORY|grep -E "$FILTER")
+        IMAGES=$(./docker-ls repositories --registry https://$TARGET_REGISTRY --allow-insecure -u $PULL_USER -p $PULL_PASSWORD --table|grep -v ^REPOSITORY|grep -E "$FILTER")
 }
 
 function _COPY_IMAGES {
         _GET_IMAGES_LIST
         for IMAGE in $IMAGES; do
-                TAGS=$(./docker-ls tags --registry https://$TARGET_REGISTRY -u $PULL_USER -p $PULL_PASSWORD $IMAGE|grep ^-|sed 's/^-//g'|sed 's/"//g')
+                TAGS=$(./docker-ls tags --registry https://$TARGET_REGISTRY --allow-insecure -u $PULL_USER -p $PULL_PASSWORD $IMAGE|grep ^-|sed 's/^-//g'|sed 's/"//g')
                 for TAG in $TAGS; do
                         IMAGE_NAME=$IMAGE
                         IMAGE_TAG=$TAG
