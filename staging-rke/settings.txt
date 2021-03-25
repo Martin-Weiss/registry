@@ -11,5 +11,13 @@ STAGE_1="rke-test"
 STAGE_2="rke-int"
 STAGE_3="rke-prod"
 
-FILES="rancher-images.txt cert-manager.txt other-images.txt rke2-images.linux-amd64.txt"
-
+FILES="\
+other-images.txt \
+cert-manager-v1.2.0.txt \
+longhorn-images-v1.1.0.txt \
+other-images.txt \
+rancher-images-v2.5.5.txt \
+rancher-images-v2.5.7.txt \
+rke2-images.linux-amd64-v1.19.7+rke2r1.txt \
+rke2-images.linux-amd64-v1.20.4+rke2r1.txt\
+"

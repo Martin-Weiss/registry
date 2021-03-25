@@ -26,8 +26,8 @@ function _COPY_IMAGES {
                         echo skopeo copy --src-tls-verify=false --dest-tls-verify=false docker://"$SOURCE_IMAGE" docker://"$TARGET_IMAGE" --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD"
                         skopeo copy --src-tls-verify=false --dest-tls-verify=false docker://"$SOURCE_IMAGE" docker://"$TARGET_IMAGE" --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD"
                         if [ ! "$?" = "0" ]; then
-                                echo "Error while copying source image:$SOURCE_IMAGE to target image: $TARGET_IMAGE"
-                                exit 1;
+                                echo "Error while copying source image:$SOURCE_IMAGE to target image: $TARGET_IMAGE" >> stage-image-error.log
+                                #exit 1;
                         fi
                 done
         done
