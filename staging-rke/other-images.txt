@@ -7,3 +7,7 @@ registry.suse.com/caasp/v4/389-ds:1.4.0
 registry.suse.com/sles12/registry:2.6.2
 registry.suse.com/sles12/portus:2.4.3
 registry.suse.com/sles12/mariadb:10.0
+docker.io/rancher/fleet-agent:v0.3.3
+docker.io/rancher/fleet:v0.3.3
+docker.io/rancher/gitjob:v0.1.12
+
