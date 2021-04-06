@@ -10,4 +10,5 @@ registry.suse.com/sles12/mariadb:10.0
 docker.io/rancher/fleet-agent:v0.3.3
 docker.io/rancher/fleet:v0.3.3
 docker.io/rancher/gitjob:v0.1.12
+gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.1
 
