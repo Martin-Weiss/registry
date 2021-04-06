@@ -15,7 +15,6 @@ FILES="\
 other-images.txt \
 cert-manager-v1.2.0.txt \
 longhorn-images-v1.1.0.txt \
-other-images.txt \
 rancher-images-v2.5.5.txt \
 rancher-images-v2.5.7.txt \
 rke2-images.linux-amd64-v1.19.7+rke2r1.txt \
