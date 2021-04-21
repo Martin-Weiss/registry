@@ -25,5 +25,6 @@ rke2-images.linux-amd64-v1.19.9+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.4+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.5+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.5-alpha1+rke2r2.txt \
+rke2-images.linux-amd64-v1.20.6-rc2+rke2r1.txt \
 rke2-cilium-images-v1.9.4.txt\
 "
