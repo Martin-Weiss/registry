@@ -1,5 +1,5 @@
-docker.io/rancher/rke2-runtime:v1.20.6-rc2-rke2r1
-docker.io/rancher/hardened-kubernetes:v1.20.6-rc2-rke2r1
+docker.io/rancher/rke2-runtime:v1.20.6-rke2r1
+docker.io/rancher/hardened-kubernetes:v1.20.6-rke2r1
 docker.io/rancher/hardened-calico:v3.13.3-build20210223
 docker.io/rancher/hardened-coredns:v1.6.9-build20210223
 docker.io/rancher/hardened-etcd:v3.4.13-k3s1-build20210223
