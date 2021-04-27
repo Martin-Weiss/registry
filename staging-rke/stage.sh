@@ -46,8 +46,12 @@ function _MAIN {
                         SOURCE_STAGE=$STAGE_2
                         TARGET_STAGE=$STAGE_3
                         _COPY_IMAGES
+                elif [ "$1" = "4" ]; then
+                        SOURCE_STAGE=$STAGE_3
+                        TARGET_STAGE=$STAGE_4
+                        _COPY_IMAGES
                 else
-                        echo "specify stage as 1,2,3"
+                        echo "specify stage as 1,2,3,4"
                 exit
                 fi
 }
