@@ -3,7 +3,7 @@
 #wget -N https://github.com/mayflower/docker-ls/releases/download/v0.5.1/docker-ls-linux-amd64.zip
 
 RKE2_VERSIONS="v1.19.7+rke2r1 v1.19.8+rke2r1 v1.19.9+rke2r1 v1.19.10+rke2r1 v1.20.4+rke2r1 v1.20.5+rke2r1 v1.20.6+rke2r1"
-RANCHER_VERSIONS="v2.5.5 v2.5.7"
+RANCHER_VERSIONS="v2.5.5 v2.5.7 v2.5.8-rc12"
 
 # RKE2
 for RKE2_VERSION in $RKE2_VERSIONS; do
