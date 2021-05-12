@@ -1,7 +1,6 @@
-dn: cn=rke-test-admins,ou=groups,dc=suse
+dn: cn=rancher-admins,ou=groups,dc=suse
 objectClass: groupOfUniqueNames
-cn: rke-test-admins
+cn: rancher-admins
 description: Group that gets admin rights on the cluster rke-test
 uniqueMember: uid=mweiss,ou=users,dc=suse
 uniqueMember: uid=admin,ou=users,dc=suse
-uniqueMember: uid=user01,ou=users,dc=suse
