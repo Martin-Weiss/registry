@@ -6,10 +6,10 @@ PUSH_USER="staging"
 PUSH_PASSWORD="KUSLjyvg8-bKKgfZhtiQ"
 TARGET_REGISTRY=registry01.suse:5000
 
-STAGE_0=""
-STAGE_1="rke-test"
-STAGE_2="rke-int"
-STAGE_3="rke-prod"
+STAGE_0="rke-cluster/external"
+STAGE_1="rke-cluster/rke-test"
+STAGE_2="rke-cluster/rke-int"
+STAGE_3="rke-cluster/rke-prod"
 
 FILES="\
 other-images.txt \
@@ -20,7 +20,7 @@ cert-manager-v1.3.0.txt \
 longhorn-images-v1.1.0.txt \
 rancher-images-v2.5.5.txt \
 rancher-images-v2.5.7.txt \
-rancher-images-v2.5.8.txt \
+rancher-images-v2.5.8-rc12.txt \
 rke1-images-v1.20.5.txt \
 rke2-upgrade-images-v1.20.5-rke2r1.txt \
 rke2-images.linux-amd64-v1.19.7+rke2r1.txt \
