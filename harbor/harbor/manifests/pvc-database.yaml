@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+ name: database-pvc
+ namespace: harbor
+spec:
+ accessModes:
+ - ReadWriteOnce
+ storageClassName: local-path
+ resources:
+   requests:
+     storage: 2Gi
+ volumeName: database-pv-volume

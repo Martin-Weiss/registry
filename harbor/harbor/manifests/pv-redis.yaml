@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+ finalizers:
+ - kubernetes.io/pv-protection
+ name: redis-pv-volume
+spec:
+ accessModes:
+ - ReadWriteOnce
+ capacity:
+   storage: 2Gi
+ hostPath:
+   # local path on my machine
+   path: /data/harbor/data/redis-pv
+   type: DirectoryOrCreate
+ persistentVolumeReclaimPolicy: Retain
+ storageClassName: local-path
+ volumeMode: Filesystem
