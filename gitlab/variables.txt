@@ -1,0 +1,9 @@
+#!/bin/bash
+# global variables
+
+CA_CERTIFICATE="rootCA.suse.crt"
+CERTIFICATE="wildcard.suse.crt"
+KEY="wildcard.suse.key"
+FQDN="gitlab01.suse"
+RUNTIME="podman"
+

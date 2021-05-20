@@ -12,4 +12,5 @@ docker.io/rancher/fleet:v0.3.3
 docker.io/rancher/gitjob:v0.1.12
 gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.1
 k8s.gcr.io/cluster-proportional-autoscaler-amd64:1.7.1
+docker.io/gitlab/gitlab-ce:13.11.4-ce.0
 
