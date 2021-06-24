@@ -1,0 +1,4 @@
+gcr.io/google-samples/gb-frontend:v4
+gcr.io/google-samples/redis:v1
+gcr.io/google_samples/gb-redisslave:v1
+docker.io/redis:6.2.4-buster

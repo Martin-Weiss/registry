@@ -12,6 +12,7 @@ STAGE_2="rke-int"
 STAGE_3="rke-prod"
 
 FILES="\
+guestbook.txt \
 other-images.txt \
 ceph-csi-rbd-images-v3.3.1.txt \
 rook-ceph-images-v1.6.2.txt \
