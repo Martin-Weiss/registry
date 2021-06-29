@@ -1,0 +1,4 @@
+docker.io/rancher/mirrored-cilium-cilium:v1.9.8
+docker.io/rancher/mirrored-cilium-operator:v1.9.8
+docker.io/rancher/mirrored-cilium-operator-generic:v1.9.8
+docker.io/rancher/mirrored-cilium-startup-script:62bfbe88c17778aad7bef9fa57ff9e2d4a9ba0d8

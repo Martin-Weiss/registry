@@ -18,6 +18,7 @@ ceph-csi-rbd-images-v3.3.1.txt \
 rook-ceph-images-v1.6.2.txt \
 cert-manager-v1.2.0.txt \
 cert-manager-v1.3.0.txt \
+cert-manager-v1.4.0.txt \
 longhorn-images-v1.1.0.txt \
 rancher-images-v2.5.5.txt \
 rancher-images-v2.5.7.txt \
@@ -27,16 +28,22 @@ rke2-upgrade-images-v1.20.5-rke2r1.txt \
 rke2-upgrade-images-v1.20.6-rke2r1.txt \
 rke2-upgrade-images-v1.20.7-rke2r1.txt \
 rke2-upgrade-images-v1.20.7-rke2r2.txt \
+rke2-upgrade-images-v1.20.8-rke2r1.txt \
+rke2-upgrade-images-v1.21.2-rke2r1.txt \
 rke2-images.linux-amd64-v1.19.7+rke2r1.txt \
 rke2-images.linux-amd64-v1.19.8+rke2r1.txt \
 rke2-images.linux-amd64-v1.19.9+rke2r1.txt \
 rke2-images.linux-amd64-v1.19.10+rke2r1.txt \
 rke2-images.linux-amd64-v1.19.11+rke2r1.txt \
+rke2-images.linux-amd64-v1.19.12+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.4+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.5+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.6+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.7+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.7+rke2r2.txt \
+rke2-images.linux-amd64-v1.20.8+rke2r1.txt \
+rke2-images.linux-amd64-v1.21.2+rke2r1.txt \
 rke2-cilium-images-v1.9.4.txt \
-rke2-cilium-images-v1.9.6.txt\
+rke2-cilium-images-v1.9.6.txt \
+rke2-cilium-images-v1.9.8.txt \
 "
