@@ -1,0 +1,3 @@
+quay.io/metallb/controller:v0.10.2
+quay.io/metallb/speaker:v0.10.2
+
