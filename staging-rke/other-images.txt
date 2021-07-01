@@ -1,3 +1,4 @@
+docker.io/nginx:1.7.9
 docker.io/busybox:1.32
 docker.io/leodotcloud/swiss-army-knife:v0.11
 docker.io/rancher/shell:v0.1.5
