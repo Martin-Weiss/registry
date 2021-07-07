@@ -1,0 +1,2 @@
+quay.io/spotahome/redis-operator:v1.0.0
+

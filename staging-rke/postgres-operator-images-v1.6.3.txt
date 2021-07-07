@@ -1,0 +1,5 @@
+registry.opensource.zalan.do/acid/postgres-operator:v1.6.3
+registry.opensource.zalan.do/acid/spilo-13:2.0-p7
+registry.opensource.zalan.do/acid/logical-backup:v1.6.3
+registry.opensource.zalan.do/acid/pgbouncer:master-16
+
