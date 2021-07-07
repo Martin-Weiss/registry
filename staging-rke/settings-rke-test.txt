@@ -12,6 +12,12 @@ STAGE_2="rke-int"
 STAGE_3="rke-prod"
 
 FILES="\
+harbor-images-v2.2.1.txt \
+harbor-images-docker-io-v2.2.1.txt \
+harbor-operator-images-v1.0.1.txt \
+postgres-operator-images-v1.6.3.txt \
+postgres-operator-ui-images-v1.6.3.txt \
+redis-operator-images-v1.0.0.txt \
 metallb-images-v0.10.2.txt \
 guestbook.txt \
 other-images.txt \

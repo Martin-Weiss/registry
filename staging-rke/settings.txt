@@ -14,9 +14,10 @@ STAGE_3="rke-prod"
 FILES="\
 harbor-images-v2.2.1.txt \
 harbor-images-docker-io-v2.2.1.txt \
-redis-operator-images-v1.0.0.txt \
-postgres-operator-images-v1.6.3.txt \
 harbor-operator-images-v1.0.1.txt \
+postgres-operator-images-v1.6.3.txt \
+postgres-operator-ui-images-v1.6.3.txt \
+redis-operator-images-v1.0.0.txt \
 metallb-images-v0.10.2.txt \
 guestbook.txt \
 other-images.txt \
@@ -52,12 +53,4 @@ rke2-images.linux-amd64-v1.21.2+rke2r1.txt \
 rke2-cilium-images-v1.9.4.txt \
 rke2-cilium-images-v1.9.6.txt \
 rke2-cilium-images-v1.9.8.txt \
-"
-
-FILES="\
-harbor-images-v2.2.1.txt \
-harbor-images-docker-io-v2.2.1.txt \
-redis-operator-images-v1.0.0.txt \
-postgres-operator-images-v1.6.3.txt \
-harbor-operator-images-v1.0.1.txt \
 "
