@@ -27,9 +27,11 @@ cert-manager-v1.2.0.txt \
 cert-manager-v1.3.0.txt \
 cert-manager-v1.4.0.txt \
 longhorn-images-v1.1.0.txt \
+longhorn-images-v1.1.2.txt \
 rancher-images-v2.5.5.txt \
 rancher-images-v2.5.7.txt \
 rancher-images-v2.5.8.txt \
+rancher-images-v2.5.9.txt \
 rke1-images-v1.20.5.txt \
 rke2-upgrade-images-v1.20.5-rke2r1.txt \
 rke2-upgrade-images-v1.20.6-rke2r1.txt \
@@ -54,3 +56,4 @@ rke2-cilium-images-v1.9.4.txt \
 rke2-cilium-images-v1.9.6.txt \
 rke2-cilium-images-v1.9.8.txt \
 "
+FILES="longhorn-images-v1.1.2.txt"

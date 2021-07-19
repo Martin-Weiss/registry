@@ -1,0 +1,11 @@
+docker.io/longhornio/longhorn-engine:v1.1.2
+docker.io/longhornio/longhorn-manager:v1.1.2
+docker.io/longhornio/longhorn-ui:v1.1.2
+docker.io/longhornio/longhorn-instance-manager:v1_20210621
+docker.io/longhornio/longhorn-share-manager:v1_20210416
+docker.io/longhornio/backing-image-manager:v1_20210422
+docker.io/longhornio/csi-attacher:v2.2.1-lh2
+docker.io/longhornio/csi-provisioner:v1.6.0-lh2
+docker.io/longhornio/csi-node-driver-registrar:v1.2.0-lh1
+docker.io/longhornio/csi-resizer:v0.5.1-lh2
+docker.io/longhornio/csi-snapshotter:v2.1.1-lh2
