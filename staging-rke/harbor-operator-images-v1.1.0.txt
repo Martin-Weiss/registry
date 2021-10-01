@@ -1,0 +1,1 @@
+docker.io/goharbor/harbor-operator:v1.1.0

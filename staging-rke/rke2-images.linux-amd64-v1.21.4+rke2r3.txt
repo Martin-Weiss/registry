@@ -1,0 +1,14 @@
+docker.io/rancher/rke2-runtime:v1.21.4-rke2r3
+docker.io/rancher/hardened-kubernetes:v1.21.4-rke2r3-build20210901
+docker.io/rancher/hardened-coredns:v1.8.3-build20210720
+docker.io/rancher/hardened-cluster-autoscaler:v1.8.3-build20210729
+docker.io/rancher/hardened-dns-node-cache:1.20.0-build20210803
+docker.io/rancher/hardened-etcd:v3.4.13-k3s1-build20210223
+docker.io/rancher/hardened-k8s-metrics-server:v0.3.6-build20210223
+docker.io/rancher/klipper-helm:v0.6.4-build20210813
+docker.io/rancher/pause:3.5
+docker.io/rancher/mirrored-jettech-kube-webhook-certgen:v1.5.1
+docker.io/rancher/nginx-ingress-controller:nginx-0.47.0-hardened1
+docker.io/rancher/rke2-cloud-provider:v0.0.1-build20210629
+docker.io/rancher/hardened-calico:v3.13.3-build20210223
+docker.io/rancher/hardened-flannel:v0.13.0-rancher1-build20210223

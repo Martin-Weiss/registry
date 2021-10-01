@@ -1,0 +1,15 @@
+ghcr.io/goharbor/nginx-photon:v2.3.2
+ghcr.io/goharbor/harbor-portal:v2.3.2
+ghcr.io/goharbor/harbor-core:v2.3.2
+ghcr.io/goharbor/harbor-jobservice:v2.3.2
+ghcr.io/goharbor/registry-photon:v2.3.2
+ghcr.io/goharbor/harbor-registryctl:v2.3.2
+ghcr.io/goharbor/chartmuseum-photon:v2.3.2
+ghcr.io/goharbor/trivy-adapter-photon:v2.3.2
+ghcr.io/goharbor/notary-server-photon:v2.3.2
+ghcr.io/goharbor/notary-signer-photon:v2.3.2
+ghcr.io/goharbor/harbor-db:v2.3.2
+ghcr.io/goharbor/redis-photon:v2.3.2
+ghcr.io/goharbor/harbor-exporter:v2.3.2
+ghcr.io/goharbor/redis:5.0-alpine
+ghcr.io/goharbor/spilo-12:1.6-p3

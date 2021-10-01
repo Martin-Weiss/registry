@@ -13,8 +13,10 @@ STAGE_3="rke-prod"
 
 FILES="\
 harbor-images-v2.2.1.txt \
+harbor-images-v2.3.2.txt \
 harbor-images-docker-io-v2.2.1.txt \
 harbor-operator-images-v1.0.1.txt \
+harbor-operator-images-v1.1.0.txt \
 postgres-operator-images-v1.6.3.txt \
 postgres-operator-ui-images-v1.6.3.txt \
 redis-operator-images-v1.0.0.txt \
@@ -32,6 +34,7 @@ rancher-images-v2.5.5.txt \
 rancher-images-v2.5.7.txt \
 rancher-images-v2.5.8.txt \
 rancher-images-v2.5.9.txt \
+rancher-images-v2.6.0.txt \
 rke1-images-v1.20.5.txt \
 rke2-upgrade-images-v1.20.5-rke2r1.txt \
 rke2-upgrade-images-v1.20.6-rke2r1.txt \
@@ -39,8 +42,11 @@ rke2-upgrade-images-v1.20.7-rke2r1.txt \
 rke2-upgrade-images-v1.20.7-rke2r2.txt \
 rke2-upgrade-images-v1.20.8-rke2r1.txt \
 rke2-upgrade-images-v1.20.9-rke2r1.txt \
+rke2-upgrade-images-v1.20.10-rke2r1.txt \
+rke2-upgrade-images-v1.20.11-rke2r1.txt \
 rke2-upgrade-images-v1.21.2-rke2r1.txt \
 rke2-upgrade-images-v1.21.3-rke2r1.txt \
+rke2-upgrade-images-v1.21.4-rke2r3.txt \
 rke2-images.linux-amd64-v1.19.7+rke2r1.txt \
 rke2-images.linux-amd64-v1.19.8+rke2r1.txt \
 rke2-images.linux-amd64-v1.19.9+rke2r1.txt \
@@ -48,6 +54,7 @@ rke2-images.linux-amd64-v1.19.10+rke2r1.txt \
 rke2-images.linux-amd64-v1.19.11+rke2r1.txt \
 rke2-images.linux-amd64-v1.19.12+rke2r1.txt \
 rke2-images.linux-amd64-v1.19.13+rke2r1.txt \
+rke2-images.linux-amd64-v1.19.14+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.4+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.5+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.6+rke2r1.txt \
@@ -55,8 +62,11 @@ rke2-images.linux-amd64-v1.20.7+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.7+rke2r2.txt \
 rke2-images.linux-amd64-v1.20.8+rke2r1.txt \
 rke2-images.linux-amd64-v1.20.9+rke2r1.txt \
+rke2-images.linux-amd64-v1.20.10+rke2r1.txt \
+rke2-images.linux-amd64-v1.20.11+rke2r1.txt \
 rke2-images.linux-amd64-v1.21.2+rke2r1.txt \
 rke2-images.linux-amd64-v1.21.3+rke2r1.txt \
+rke2-images.linux-amd64-v1.21.4+rke2r3.txt \
 rke2-cilium-images-v1.9.4.txt \
 rke2-cilium-images-v1.9.6.txt \
 rke2-cilium-images-v1.9.8.txt \
