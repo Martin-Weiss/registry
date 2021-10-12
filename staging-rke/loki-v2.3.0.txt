@@ -1,0 +1,6 @@
+docker.io/grafana/loki:2.3.0
+docker.io/busybox:latest
+docker.io/angelbarrera92/basic-auth-reverse-proxy:dev
+docker.io/nginxinc/nginx-unprivileged:1.19-alpine
+docker.io/memcached:1.6.7-alpine
+docker.io/prom/memcached-exporter:v0.6.0
