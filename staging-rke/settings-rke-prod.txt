@@ -37,6 +37,7 @@ rancher-images-v2.5.8.txt \
 rancher-images-v2.5.9.txt \
 rancher-images-v2.6.0.txt \
 rancher-images-v2.6.1.txt \
+rancher-images-v2.6.2.txt \
 rke1-images-v1.20.5.txt \
 rke2-upgrade-images-v1.20.5-rke2r1.txt \
 rke2-upgrade-images-v1.20.6-rke2r1.txt \
