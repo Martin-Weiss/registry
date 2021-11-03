@@ -1,3 +1,4 @@
+docker.io/rancher/system-upgrade-controller:v0.7.6
 docker.io/praqma/network-multitool:latest
 docker.io/nginx:1.7.9
 docker.io/busybox:1.32
