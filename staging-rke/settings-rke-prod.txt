@@ -29,6 +29,7 @@ rook-ceph-images-v1.6.2.txt \
 cert-manager-v1.2.0.txt \
 cert-manager-v1.3.0.txt \
 cert-manager-v1.4.0.txt \
+cert-manager-v1.5.1.txt \
 longhorn-images-v1.1.0.txt \
 longhorn-images-v1.1.2.txt \
 rancher-images-v2.5.5.txt \

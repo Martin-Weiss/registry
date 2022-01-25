@@ -1,0 +1,5 @@
+registry.suse.com/ses/7/ceph/ceph:15.2.15.83.6.76
+registry.suse.com/ses/7/ceph/grafana:7.5.7.3.632
+registry.suse.com/caasp/v4.5/prometheus-server:2.18.0
+registry.suse.com/caasp/v4.5/prometheus-node-exporter:0.18.1
+registry.suse.com/caasp/v4.5/prometheus-alertmanager:0.16.2
