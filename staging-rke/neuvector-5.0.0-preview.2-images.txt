@@ -1,0 +1,6 @@
+docker.io/neuvector/controller.preview:5.0.0-preview.2
+docker.io/neuvector/enforcer.preview:5.0.0-preview.2
+docker.io/neuvector/manager.preview:5.0.0-preview.2
+docker.io/neuvector/updater.preview:latest
+docker.io/neuvector/scanner.preview:latest
+docker.io/neuvector/prometheus-exporter:4.2.2
