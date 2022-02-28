@@ -100,4 +100,4 @@ rke2-cilium-images-v1.9.4.txt \
 rke2-cilium-images-v1.9.6.txt \
 rke2-cilium-images-v1.9.8.txt \
 "
-
+FILES="neuvector-5.0.0-preview.2-images.txt cert-exporter-v2.7.0.txt"

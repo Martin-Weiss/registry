@@ -1,0 +1,1 @@
+docker.io/joeelliott/cert-exporter:v2.7.0
