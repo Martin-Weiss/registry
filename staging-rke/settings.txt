@@ -33,6 +33,7 @@ cert-manager-v1.4.0.txt \
 cert-manager-v1.5.1.txt \
 cert-manager-v1.7.0.txt \
 cert-manager-v1.7.1.txt \
+cert-manager-v1.7.2.txt \
 longhorn-images-v1.1.0.txt \
 longhorn-images-v1.1.2.txt \
 rancher-images-v2.5.5.txt \
@@ -99,5 +100,6 @@ rke2-images.linux-amd64-v1.21.9+rke2r1.txt \
 rke2-cilium-images-v1.9.4.txt \
 rke2-cilium-images-v1.9.6.txt \
 rke2-cilium-images-v1.9.8.txt \
+neuvector-5.0.0-preview.2-images.txt \
+cert-exporter-v2.7.0.txt
 "
-FILES="neuvector-5.0.0-preview.2-images.txt cert-exporter-v2.7.0.txt"
