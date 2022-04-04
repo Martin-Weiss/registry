@@ -45,6 +45,7 @@ rancher-images-v2.6.0.txt \
 rancher-images-v2.6.1.txt \
 rancher-images-v2.6.2.txt \
 rancher-images-v2.6.3.txt \
+rancher-images-v2.6.4.txt \
 rke1-images-v1.20.5.txt \
 rke2-upgrade-images-v1.19.16-rke2r1.txt \
 rke2-upgrade-images-v1.20.5-rke2r1.txt \
@@ -102,4 +103,8 @@ rke2-cilium-images-v1.9.6.txt \
 rke2-cilium-images-v1.9.8.txt \
 neuvector-5.0.0-preview.2-images.txt \
 cert-exporter-v2.7.0.txt
+"
+FILES="
+cert-manager-v1.7.1.txt \
+cert-manager-v1.7.2.txt \
 "
