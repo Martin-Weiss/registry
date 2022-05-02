@@ -13,6 +13,8 @@ STAGE_3="rke-prod"
 
 FILES="\
 loki-v2.3.0.txt \
+ses7-images.txt \
+ses7.1-images.txt \
 harbor-images-v2.2.1.txt \
 harbor-images-v2.3.2.txt \
 harbor-images-docker-io-v2.2.1.txt \
