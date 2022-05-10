@@ -1,0 +1,5 @@
+dn: cn=grafana-editors,ou=groups,dc=suse
+objectClass: groupOfUniqueNames
+cn: grafana-editors
+description: Group that gets admin rights on the cluster rke-test
+uniqueMember: uid=mweiss,ou=users,dc=suse

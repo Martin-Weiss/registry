@@ -1,0 +1,8 @@
+dn: uid=binduser-nginx,dc=suse
+objectClass: inetOrgPerson
+cn: binduser-nginx
+uid: binduser-nginx
+mail: binduser-nginx@suse
+sn: binduser-nginx
+givenName: binduser-nginx
+userPassword: {SSHA}7QlyffV/Klea3SHDmaIJKcTcWzEgACwu

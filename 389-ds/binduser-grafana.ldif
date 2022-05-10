@@ -1,0 +1,8 @@
+dn: uid=binduser-grafana,dc=suse
+objectClass: inetOrgPerson
+cn: binduser-grafana
+uid: binduser-grafana
+mail: binduser-grafana@suse
+sn: binduser-grafana
+givenName: binduser-grafana
+userPassword: {SSHA}7QlyffV/Klea3SHDmaIJKcTcWzEgACwu

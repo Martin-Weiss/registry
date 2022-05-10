@@ -1,0 +1,5 @@
+dn: cn=grafana-admins,ou=groups,dc=suse
+objectClass: groupOfUniqueNames
+cn: grafana-admins
+description: Group that gets admin rights on the cluster rke-test
+uniqueMember: uid=admin,ou=users,dc=suse
