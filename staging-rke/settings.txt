@@ -12,7 +12,7 @@ STAGE_2="rke-int"
 STAGE_3="rke-prod"
 
 FILES="\
-loki-v2.3.0.txt \
+loki-v2.5.0.txt \
 ses7-images.txt \
 ses7.1-images.txt \
 harbor-images-v2.3.2.txt \
