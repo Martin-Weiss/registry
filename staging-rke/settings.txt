@@ -12,6 +12,7 @@ STAGE_2="rke-int"
 STAGE_3="rke-prod"
 
 FILES="\
+missing.txt \
 loki-v2.5.0.txt \
 ses7-images.txt \
 ses7.1-images.txt \
@@ -35,10 +36,13 @@ rke2-upgrade-images-v1.20.15-rke2r1.txt \
 rke2-upgrade-images-v1.21.11-rke2r1.txt \
 rke2-upgrade-images-v1.22.8-rke2r1.txt \
 rke2-upgrade-images-v1.22.9-rke2r2.txt \
+rke2-upgrade-images-v1.22.10-rke2r2.txt \
 rke2-images.linux-amd64-v1.20.15+rke2r1.txt \
 rke2-images.linux-amd64-v1.22.8+rke2r1.txt \
 rke2-images.linux-amd64-v1.22.9+rke2r2.txt \
+rke2-images.linux-amd64-v1.22.10+rke2r2.txt \ 
+system-agent-installer-v1.22.10+rke2r2.txt \
 rke2-cilium-images-v1.9.8.txt \
 neuvector-5.0.0-preview.2-images.txt \
-cert-exporter-v2.7.0.txt
+cert-exporter-v2.7.0.txt \
 "
