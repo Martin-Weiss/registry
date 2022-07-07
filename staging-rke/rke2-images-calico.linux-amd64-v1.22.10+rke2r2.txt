@@ -1,0 +1,8 @@
+docker.io/rancher/mirrored-calico-operator:v1.23.7
+docker.io/rancher/mirrored-calico-ctl:v3.21.5
+docker.io/rancher/mirrored-calico-kube-controllers:v3.21.5
+docker.io/rancher/mirrored-calico-typha:v3.21.5
+docker.io/rancher/mirrored-calico-node:v3.21.5
+docker.io/rancher/mirrored-calico-pod2daemon-flexvol:v3.21.5
+docker.io/rancher/mirrored-calico-cni:v3.21.5
+docker.io/rancher/mirrored-calico-apiserver:v3.21.5
