@@ -1,0 +1,1 @@
+docker.io/rancher/rke2-upgrade:v1.21.12-rke2r2
