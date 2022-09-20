@@ -1,0 +1,1 @@
+docker.io/rancher/system-agent-installer-rke2:v1.23.10-rke2r1
