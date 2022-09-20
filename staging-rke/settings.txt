@@ -57,6 +57,7 @@ rke2-images.linux-amd64-v1.23.9+rke2r1.txt \
 rke2-images.linux-amd64-v1.24.3+rke2r1.txt \
 rke2-images.linux-amd64-v1.24.4+rke2r1.txt \
 system-agent-installer-v1.22.10+rke2r2.txt \
+system-agent-installer-v1.24.4+rke2r1.txt \
 rke2-cilium-images-v1.9.8.txt \
 neuvector-5.0.0-preview.2-images.txt \
 cert-exporter-v2.7.0.txt \
