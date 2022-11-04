@@ -25,11 +25,13 @@ metallb-images-v0.10.2.txt \
 guestbook.txt \
 other-images.txt \
 ceph-csi-rbd-images-v3.5.1.txt \
+ceph-csi-rbd-images-v3.7.2.txt \
 rook-ceph-images-v1.6.2.txt \
 cert-manager-v1.7.2.txt \
 cert-manager-v1.8.0.txt \
 cert-manager-v1.8.2.txt \
 cert-manager-v1.9.1.txt \
+cert-manager-v1.10.0.txt \
 rancher-images-v2.6.4.txt \
 rancher-images-v2.6.5.txt \
 rancher-images-v2.6.6.txt \
