@@ -4,4 +4,5 @@ k8s.gcr.io/sig-storage/csi-provisioner:v3.2.1
 k8s.gcr.io/sig-storage/csi-attacher:v3.5.0
 k8s.gcr.io/sig-storage/csi-resizer:v1.5.0
 k8s.gcr.io/sig-storage/csi-snapshotter:v6.0.1
+gcr.io/k8s-staging-sig-storage/csi-provisioner:v3.2.1
 
