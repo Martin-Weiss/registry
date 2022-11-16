@@ -1,0 +1,7 @@
+docker.io/grafana/mimir:2.4.0
+docker.io/memcached:1.6.16-alpine
+docker.io/nginxinc/nginx-unprivileged:1.22-alpine
+docker.io/grafana/enterprise-metrics:v2.4.0
+docker.io/raintank/graphite-mt:8-7ebde4c60-v2
+docker.io/grafana/mimir-continuous-test:2.4.0
+docker.io/prom/memcached-exporter:v0.6.0
