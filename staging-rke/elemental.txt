@@ -1,0 +1,1 @@
+registry.opensuse.org/isv/rancher/elemental/stable/teal53/15.4/rancher/elemental-operator/5.3:0.6.3

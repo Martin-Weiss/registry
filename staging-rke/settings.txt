@@ -74,4 +74,5 @@ cert-exporter-v2.7.0.txt \
 cilium-test.txt \
 longhorn-images-v1.3.2.txt \
 mimir-3.3.0.txt \
+elemental.txt \
 "
