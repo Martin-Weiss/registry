@@ -18,7 +18,7 @@ $RUNTIME run -d \
 --restart=always \
 --name registry \
 -v /data/certificates:/certificates:ro \
--v /data/certificates/$CA_CERTIFICATE:/etc/ssl/ca-bundle.pem:ro \
+-v /data/certificates/$CA_CERTIFICATE:/etc/ssl/certs/ca-certificates.crt:ro \
 -v /data/registry/config.yml:/etc/docker/registry/config.yml \
 -v /data/registry/docker-registry:/var/lib/docker-registry \
 -p 5000:5000 \
@@ -44,10 +44,13 @@ $RUNTIME run -d \
   threshold: 5
   backoff: 1s
 " \
-registry.suse.com/sles12/registry:2.6.2
+docker.io/registry:2.8.1
 podman generate systemd --restart-policy=always registry -n > /etc/systemd/system/container-registry.service
 systemctl daemon-reload
 systemctl enable --now container-registry.service
 exit
+# old suse image
+-v /data/certificates/$CA_CERTIFICATE:/etc/ssl/ca-bundle.pem:ro \
+registry.suse.com/sles12/registry:2.6.2
 # podman does not support "unless-stopped"
 --restart=unless-stopped \
