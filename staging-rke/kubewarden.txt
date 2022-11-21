@@ -1,0 +1,3 @@
+ghcr.io/kubewarden/kubewarden-controller:v1.3.0
+ghcr.io/kubewarden/kubectl:v1.23.3
+ghcr.io/kubewarden/policy-server:v1.3.0
