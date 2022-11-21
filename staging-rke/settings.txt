@@ -1,5 +1,7 @@
 #!/bin/bash
 
+SKOPEO_IMAGE="quay.io/skopeo/stable:v1.10.0"
+
 PULL_USER="staging"
 PULL_PASSWORD="KUSLjyvg8-bKKgfZhtiQ"
 PUSH_USER="staging"
@@ -75,4 +77,6 @@ cilium-test.txt \
 longhorn-images-v1.3.2.txt \
 mimir-3.3.0.txt \
 elemental.txt \
+kubewarden.txt \
+kubewarden-policies.txt \
 "
