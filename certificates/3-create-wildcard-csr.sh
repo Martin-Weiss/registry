@@ -8,8 +8,7 @@ openssl \
  -sha256 \
  -key wildcard.$DOMAIN.key \
  -out wildcard.$DOMAIN.csr \
- -config ./req.conf \
- -days 720
+ -config ./req.conf
 
 openssl \
  req \
