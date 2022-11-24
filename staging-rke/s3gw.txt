@@ -1,0 +1,2 @@
+ghcr.io/aquarist-labs/s3gw:v0.8.0
+ghcr.io/aquarist-labs/s3gw-ui:v0.8.0
