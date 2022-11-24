@@ -79,4 +79,5 @@ mimir-3.3.0.txt \
 elemental.txt \
 kubewarden.txt \
 kubewarden-policies.txt \
+open-telemetry-operator.txt \
 "
