@@ -1,23 +1,23 @@
 mirrors:
   docker.io:
     endpoint:
-      - "https://registry-1.suse:5000/v2/"
+      - "https://registry01.suse/v2/"
     rewrite:
-      "(.*)": "prdr/docker.io/$1"
+      "(.*)": "rke-prod/docker.io/$1"
   quay.io:
     endpoint:
-      - "https://registry-1.suse:5000/v2/"
+      - "https://registry01.suse/v2/"
     rewrite:
-      "(.*)": "prdr/quay.io/$1"
+      "(.*)": "rke-prod/quay.io/$1"
   gcr.io:
     endpoint:
-      - "https://registry-1.suse:5000/v2/"
+      - "https://registry01.suse/v2/"
     rewrite:
-      "(.*)": "prdr/gcr.io/$1"
+      "(.*)": "rke-prod/gcr.io/$1"
 configs:
-  "registry-1.suse:5000":
+  "registry01.suse":
     auth:
-      username: registry-2 # this is the registry username
+      username: robot-registry01 # this is the registry username
       password: suse1234 # this is the registry password
     tls:
       ca_file: /etc/ssl/ca-bundle.pem

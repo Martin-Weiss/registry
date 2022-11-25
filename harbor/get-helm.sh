@@ -1,5 +1,6 @@
 #!/bin/bash
-curl -L -o helm-linux-amd64.tar.gz https://get.helm.sh/helm-v3.8.0-linux-amd64.tar.gz
+source ./variables.txt
+curl -L -o helm-linux-amd64.tar.gz https://get.helm.sh/helm-$HELM_VERSION-linux-amd64.tar.gz
 tar xzf helm-linux-amd64.tar.gz
 mv linux-amd64/helm /usr/local/bin
 rm -rf linux-amd64
