@@ -6,7 +6,9 @@ PULL_USER="staging"
 PULL_PASSWORD="KUSLjyvg8-bKKgfZhtiQ"
 PUSH_USER="staging"
 PUSH_PASSWORD="KUSLjyvg8-bKKgfZhtiQ"
-TARGET_REGISTRY=registry01.suse:5000
+#TARGET_REGISTRY=registry01.suse:5000
+TARGET_REGISTRY=registry01.suse
+#TARGET_REGISTRY=registry02.suse:5000
 
 STAGE_0=""
 STAGE_1="rke-test"
