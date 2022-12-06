@@ -1,0 +1,1 @@
+docker.io/longhornio/longhorn-ui:v1.3.2

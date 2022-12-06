@@ -84,4 +84,5 @@ kubewarden-policies.txt \
 open-telemetry-operator.txt \
 jaeger.txt \
 s3gw.txt \
+harvester-images.txt \
 "
