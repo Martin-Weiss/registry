@@ -3,5 +3,8 @@ ghcr.io/kubewarden/kubectl:v1.23.3
 ghcr.io/kubewarden/policy-server:v1.3.0
 ghcr.io/kubewarden/kubewarden-controller:v1.5.0
 ghcr.io/kubewarden/kubectl:v1.25.6
+ghcr.io/kubewarden/kubewarden-controller:v1.6.0
+ghcr.io/kubewarden/kubectl:v1.25.9
 ghcr.io/kubewarden/policy-server:v1.5.1
 ghcr.io/kubewarden/policy-server:v1.5.3
+ghcr.io/kubewarden/policy-server:v1.6.0
