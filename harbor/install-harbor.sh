@@ -14,7 +14,7 @@ cp harbor-$HARBOR_CHART_VERSION/images/*.tar /var/lib/rancher/k3s/agent/images/
 systemctl restart k3s
 cp /data/harbor/manifests/*.yaml /var/lib/rancher/k3s/server/manifests/
 kubectl create ns harbor
-kubectl -n harbor create secret tls registry01.suse --key="/data/certificates/$KEY" --cert="/data/certificates/$CERTIFICATE"
-kubectl -n harbor create secret generic rootca.suse --from-file=ca.crt="/data/certificates/$CA_CERTIFICATE"
+kubectl -n harbor create secret tls $FQDN --key="/data/certificates/$KEY" --cert="/data/certificates/$CERTIFICATE"
+kubectl -n harbor create secret generic $CANAME --from-file=ca.crt="/data/certificates/$CA_CERTIFICATE"
 export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
 helm upgrade --install harbor harbor-$HARBOR_CHART_VERSION/harbor-$HARBOR_CHART_VERSION.tgz -f harbor-$HARBOR_CHART_VERSION/harbor-$HARBOR_CHART_VERSION.values.yaml --namespace harbor
