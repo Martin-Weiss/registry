@@ -23,7 +23,7 @@ for FILE in $FILES; do
 	for IMAGE in $(cat $FILE); do
 	        echo downloading $IMAGE
 		echo $SKOPEO inspect --tls-verify=false docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --creds "$PUSH_USER":"$PUSH_PASSWORD"
-		if $SKOPEO inspect --tls-verify=false docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --creds "$PUSH_USER":"$PUSH_PASSWORD" >/dev/null 2>&1 ; then	       
+		if $SKOPEO inspect --tls-verify=false docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --creds "$PUSH_USER":"$PUSH_PASSWORD" >/dev/null 2>&1 && ! [[ "$IMAGE" == *latest ]] ; then	       
 			echo $TARGET_REGISTRY/$TARGET_STAGE$IMAGE already exists
 		else
 			echo $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --dest-creds "$PUSH_USER":"$PUSH_PASSWORD";
