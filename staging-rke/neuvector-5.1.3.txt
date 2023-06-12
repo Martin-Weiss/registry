@@ -1,0 +1,7 @@
+registry.rancher.com/rancher/mirrored-neuvector-controller:5.1.3
+registry.rancher.com/rancher/mirrored-neuvector-enforcer:5.1.3
+registry.rancher.com/rancher/mirrored-neuvector-manager:5.1.3
+registry.rancher.com/rancher/mirrored-neuvector-scanner:5
+registry.rancher.com/rancher/mirrored-neuvector-scanner:latest
+registry.rancher.com/rancher/mirrored-neuvector-updater:5
+registry.rancher.com/rancher/mirrored-neuvector-updater:latest

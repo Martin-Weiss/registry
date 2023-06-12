@@ -93,6 +93,7 @@ system-agent-installer-v1.25.9+rke2r1.txt \
 system-agent-installer-v1.26.1+rke2r1.txt \
 rke2-cilium-images-v1.9.8.txt \
 neuvector-5.0.0-preview.2-images.txt \
+neuvector-5.1.3.txt \
 cert-exporter-v2.7.0.txt \
 cilium-test.txt \
 longhorn-images-v1.3.2.txt \
