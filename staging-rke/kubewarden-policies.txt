@@ -24,3 +24,4 @@ ghcr.io/kubewarden/policies/user-group-psp:v0.4.7
 ghcr.io/kubewarden/policies/hostpaths-psp:v0.1.8
 ghcr.io/kubewarden/policies/capabilities-psp:v0.1.11
 
+ghcr.io/kubewarden/policies/psa-label-enforcer:v0.1.1
