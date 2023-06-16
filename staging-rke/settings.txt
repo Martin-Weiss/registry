@@ -39,6 +39,7 @@ cert-manager-v1.9.1.txt \
 cert-manager-v1.10.0.txt \
 cert-manager-v1.11.0.txt \
 cert-manager-v1.11.1.txt \
+cert-manager-v1.12.1.txt \
 rancher-images-v2.6.4.txt \
 rancher-images-v2.6.5.txt \
 rancher-images-v2.6.6.txt \
