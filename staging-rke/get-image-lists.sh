@@ -14,6 +14,8 @@ RKE2_VERSIONS="v1.24.10+rke2r1 v1.25.6+rke2r1 v1.26.1+rke2r1 v1.25.9+rke2r1"
 #RANCHER_VERSIONS="v2.7.5"
 RANCHER_VERSIONS="v2.7.6"
 
+HARVESTER_VERSIONS="v1.1.2 v1.2.0"
+
 # RKE2
 for RKE2_VERSION in $RKE2_VERSIONS; do
 	wget -N "https://github.com/rancher/rke2/releases/download/$RKE2_VERSION/rke2-images-all.linux-amd64.txt" -O rke2-images.linux-amd64-$RKE2_VERSION.txt
@@ -24,3 +26,12 @@ for RANCHER_VERSION in $RANCHER_VERSIONS; do
 	#wget -N "https://github.com/rancher/rancher/releases/download/$RANCHER_VERSION/rancher-images.txt" -O rancher-images-$RANCHER_VERSION.txt; sed -i "s#^#docker.io/#g" rancher-images-$RANCHER_VERSION.txt
 	wget -N "https://github.com/rancher/rancher/releases/download/$RANCHER_VERSION/rancher-images.txt" -O rancher-images-$RANCHER_VERSION.txt; sed -i "s#^#registry.rancher.com/#g" rancher-images-$RANCHER_VERSION.txt
 done
+
+# Harvester
+for HARVESTER_VERSION in $HARVESTER_VERSIONS; do
+	wget -N "https://releases.rancher.com/harvester/$HARVESTER_VERSION/image-lists.tar.gz" -O harvester-$HARVESTER_VERSION.tar.gz
+	tar xzvf harvester-$HARVESTER_VERSION.tar.gz
+	cat image-lists/*.txt | sort | uniq > harvester-$HARVESTER_VERSION.txt
+	rm -rf harvester-$HARVESTER_VERSION.tar.gz image-lists
+done
+
