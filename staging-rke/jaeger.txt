@@ -1,2 +1,4 @@
 docker.io/jaegertracing/jaeger-operator:1.39.0
 docker.io/jaegertracing/all-in-one:1.39.0
+docker.io/jaegertracing/jaeger-operator:1.49.0
+docker.io/jaegertracing/all-in-one:1.49.0
