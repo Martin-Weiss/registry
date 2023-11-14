@@ -1,0 +1,4 @@
+docker.io/grafana/loki:2.9.2
+docker.io/nginxinc/nginx-unprivileged:1.20.2-alpine
+docker.io/memcached:1.6.21-alpine
+docker.io/prom/memcached-exporter:v0.13.0

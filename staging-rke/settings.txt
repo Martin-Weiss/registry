@@ -18,6 +18,7 @@ STAGE_3="rke-prod"
 
 FILES="\
 loki-v2.5.0.txt \
+loki-v2.9.2.txt mimir-5.1.2.txt
 ses7-images.txt \
 ses7.1-images.txt \
 harbor-images-v2.3.2.txt \
@@ -40,6 +41,7 @@ cert-manager-v1.10.0.txt \
 cert-manager-v1.11.0.txt \
 cert-manager-v1.11.1.txt \
 cert-manager-v1.12.1.txt \
+cert-manager-v1.13.2.txt
 rancher-images-v2.6.4.txt \
 rancher-images-v2.6.5.txt \
 rancher-images-v2.6.6.txt \
@@ -113,6 +115,7 @@ system-agent-installer-v1.28.3+rke2r2.txt \
 rke2-cilium-images-v1.9.8.txt \
 neuvector-5.0.0-preview.2-images.txt \
 neuvector-5.1.3.txt \
+neuvector-5.2.2.txt longhorn-images-v1.4.4.txt
 cert-exporter-v2.7.0.txt \
 cilium-test.txt \
 longhorn-images-v1.3.2.txt \

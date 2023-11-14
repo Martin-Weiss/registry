@@ -2,3 +2,8 @@ ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:v0.63.1
 docker.io/otel/opentelemetry-collector-contrib:0.64.1
 gcr.io/kubebuilder/kube-rbac-proxy:v0.11.0
 docker.io/busybox:latest
+
+ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:v0.88.0
+docker.io/otel/opentelemetry-collector-contrib:0.88.0
+quay.io/brancz/kube-rbac-proxy:v0.14.2
+docker.io/busybox:latest
