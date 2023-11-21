@@ -115,10 +115,12 @@ system-agent-installer-v1.28.3+rke2r2.txt \
 rke2-cilium-images-v1.9.8.txt \
 neuvector-5.0.0-preview.2-images.txt \
 neuvector-5.1.3.txt \
-neuvector-5.2.2.txt longhorn-images-v1.4.4.txt
+neuvector-5.2.2.txt \
+longhorn-images-v1.3.2.txt \
+longhorn-images-v1.4.4.txt \
+longhorn-images-v1.5.1.txt \
 cert-exporter-v2.7.0.txt \
 cilium-test.txt \
-longhorn-images-v1.3.2.txt \
 mimir-3.3.0.txt \
 elemental.txt \
 kubewarden.txt \
@@ -126,11 +128,11 @@ kubewarden-policies.txt \
 open-telemetry-operator.txt \
 jaeger.txt \
 s3gw.txt \
+nfs-subdir-external-provisioner-4.0.18.txt \
 harvester-images-v1.1.1.txt \
 harvester-images-v1.1.2.txt \
-nfs-subdir-external-provisioner-4.0.18.txt \
-missing.txt \
 harvester-v1.1.2.txt \
 harvester-v1.2.0.txt \
 harvester-v1.2.1.txt \
+missing.txt \
 "
