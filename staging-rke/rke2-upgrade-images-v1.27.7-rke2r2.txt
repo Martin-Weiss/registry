@@ -1,1 +1,2 @@
 docker.io/rancher/rke2-upgrade:v1.27.7-rke2r2
+registry.rancher.com/rancher/rke2-upgrade:v1.27.7-rke2r2
