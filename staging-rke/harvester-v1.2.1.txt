@@ -28,8 +28,8 @@ docker.io/rancher/hardened-kubernetes:v1.25.9-rke2r1-build20230412
 docker.io/rancher/hardened-multus-cni:v3.9.3-build20230109
 docker.io/rancher/harvester-cluster-repo:v1.2.1
 docker.io/rancher/harvester-eventrouter:v0.1.1
-docker.io/rancher/harvester-load-balancer-webhook:v0.2.1
 docker.io/rancher/harvester-load-balancer:v0.2.1
+docker.io/rancher/harvester-load-balancer-webhook:v0.2.1
 docker.io/rancher/harvester-network-controller:v0.3.4
 docker.io/rancher/harvester-network-helper:v0.3.4
 docker.io/rancher/harvester-network-webhook:v0.3.4
@@ -38,9 +38,9 @@ docker.io/rancher/harvester-node-manager:v0.1.7
 docker.io/rancher/harvester-pcidevices:v0.2.5
 docker.io/rancher/harvester-seeder:v0.1.0
 docker.io/rancher/harvester-upgrade:v1.2.1
+docker.io/rancher/harvester:v1.2.1
 docker.io/rancher/harvester-vm-import-controller:v0.1.5
 docker.io/rancher/harvester-webhook:v1.2.1
-docker.io/rancher/harvester:v1.2.1
 docker.io/rancher/klipper-helm:v0.7.6-build20230223
 docker.io/rancher/klipper-lb:v0.4.3
 docker.io/rancher/kubectl:v1.20.2
@@ -67,8 +67,8 @@ docker.io/rancher/mirrored-sig-storage-snapshot-controller:v6.2.1
 docker.io/rancher/mirrored-sig-storage-snapshot-validation-webhook:v6.2.1
 docker.io/rancher/nginx-ingress-controller:nginx-1.6.4-hardened4
 docker.io/rancher/pause:3.6
-docker.io/rancher/rancher-webhook:v0.3.5
 docker.io/rancher/rancher:v2.7.5
+docker.io/rancher/rancher-webhook:v0.3.5
 docker.io/rancher/rke2-cloud-provider:v1.26.3-build20230406
 docker.io/rancher/rke2-runtime:v1.25.9-rke2r1
 docker.io/rancher/shell:v0.1.18
