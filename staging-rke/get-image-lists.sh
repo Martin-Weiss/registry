@@ -36,13 +36,16 @@ for RKE2_VERSION in $RKE2_VERSIONS; do
 	# adding registry.rancher.com as well
 	cat rke2-images.linux-amd64-$RKE2_VERSION.txt |sed 's/docker.io/registry.rancher.com/g' >> rke2-images.linux-amd64-$RKE2_VERSION.txt
 
-	# missing images for rancher based upgrade or deployment
-	echo "docker.io/rancher/system-agent-installer-rke2:$RKE2_VERSION" > system-agent-installer-$RKE2_VERSION.txt
-	echo "registry.rancher.com/rancher/system-agent-installer-rke2:$RKE2_VERSION" >> system-agent-installer-$RKE2_VERSION.txt
+        # missing images for rancher based upgrade or deployment
+        MINUS_VERSION=$(echo $RKE2_VERSION|sed 's/+/-/g')
+        echo "docker.io/rancher/system-agent-installer-rke2:$MINUS_VERSION" > system-agent-installer-$MINUS_VERSION.txt
+        echo "registry.rancher.com/rancher/system-agent-installer-rke2:$MINUS_VERSION" >> system-agent-installer-$MINUS_VERSION.txt
 
-	MINUS_VERSION=$(echo $RKE2_VERSION|sed 's/+/-/g')
-	echo "docker.io/rancher/rke2-upgrade:$MINUS_VERSION" > rke2-upgrade-images-$MINUS_VERSION.txt 
-	echo "registry.rancher.com/rancher/rke2-upgrade:$MINUS_VERSION" >> rke2-upgrade-images-$MINUS_VERSION.txt 
+        MINUS_VERSION=$(echo $RKE2_VERSION|sed 's/+/-/g')
+        echo MINUS_VERSION is $MINUS_VERSION
+        echo "docker.io/rancher/rke2-upgrade:$MINUS_VERSION" > rke2-upgrade-images-$MINUS_VERSION.txt
+        echo "registry.rancher.com/rancher/rke2-upgrade:$MINUS_VERSION" >> rke2-upgrade-images-$MINUS_VERSION.txt
+
 done
 
 # Rancher
