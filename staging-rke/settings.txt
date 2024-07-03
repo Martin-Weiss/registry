@@ -138,7 +138,7 @@ neuvector-5.3.0.txt \
 longhorn-images-v1.3.2.txt \
 longhorn-images-v1.4.4.txt \
 longhorn-images-v1.5.1.txt \
-cert-exporter-v2.7.0.txt \
+cert-exporter.txt \
 cilium-test.txt \
 mimir-3.3.0.txt \
 elemental.txt \
@@ -157,7 +157,4 @@ harvester-v1.2.2.txt \
 harvester-v1.3.0.txt \
 harvester-v1.3.1.txt \
 missing.txt \
-"
-FILES="\
-cert-manager-v1.15.0.txt \
 "
