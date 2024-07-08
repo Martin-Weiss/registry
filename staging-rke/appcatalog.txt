@@ -1,0 +1,5 @@
+dp.apps.rancher.io/containers/cert-manager-controller:1.14.7
+dp.apps.rancher.io/containers/cert-manager-webhook:1.14.7
+dp.apps.rancher.io/containers/cert-manager-cainjector:1.14.7
+dp.apps.rancher.io/containers/cert-manager-ctl:1.14.7
+

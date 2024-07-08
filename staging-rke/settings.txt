@@ -157,4 +157,6 @@ harvester-v1.2.2.txt \
 harvester-v1.3.0.txt \
 harvester-v1.3.1.txt \
 missing.txt \
+stackstate.txt \
+appcatalog.txt \
 "
