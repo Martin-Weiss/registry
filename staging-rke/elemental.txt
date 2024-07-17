@@ -1,3 +1,8 @@
+registry.opensuse.org/isv/rancher/elemental/staging/containers/suse/sl-micro/6.0/baremetal-iso-image:2.1.1-9.60
+registry.opensuse.org/isv/rancher/elemental/staging/containers/rancher/elemental-channel:1.6.2
+registry.suse.com/rancher/elemental-operator:1.5.4
+registry.suse.com/rancher/seedimage-builder:1.5.4
+registry.suse.com/rancher/elemental-channel:1.5.4
 registry.opensuse.org/isv/rancher/elemental/staging/containers/suse/sle-micro-iso/5.5:2.0.2
 registry.opensuse.org/isv/rancher/elemental/staging/containers/suse/sle-micro/5.5:2.0.2
 registry.suse.com/rancher/elemental-teal-iso/5.4:1.1.5

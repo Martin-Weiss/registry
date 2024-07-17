@@ -22,3 +22,10 @@ ghcr.io/kubewarden/audit-scanner:v1.13.0
 ghcr.io/kyverno/policy-reporter-ui:1.9.2
 ghcr.io/kyverno/policy-reporter:2.19.0
 ghcr.io/kubewarden/policy-server:v1.13.1
+
+ghcr.io/kubewarden/kubewarden-controller:v1.14.0
+ghcr.io/kubewarden/kubectl:v1.27.15
+ghcr.io/kubewarden/audit-scanner:v1.14.0
+ghcr.io/kyverno/policy-reporter-ui:1.9.2
+ghcr.io/kyverno/policy-reporter:2.20.0
+ghcr.io/kubewarden/policy-server:v1.14.0
