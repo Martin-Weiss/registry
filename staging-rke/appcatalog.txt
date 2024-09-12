@@ -1,3 +1,4 @@
+dp.apps.rancher.io/containers/cert-manager-startupapicheck:1.15.1
 dp.apps.rancher.io/containers/frr:9.0.2-5.5
 dp.apps.rancher.io/containers/cert-manager-controller:1.15.1
 dp.apps.rancher.io/containers/cert-manager-webhook:1.15.1
@@ -10,4 +11,3 @@ dp.apps.rancher.io/containers/cert-manager-controller:1.14.7
 dp.apps.rancher.io/containers/cert-manager-webhook:1.14.7
 dp.apps.rancher.io/containers/cert-manager-cainjector:1.14.7
 dp.apps.rancher.io/containers/cert-manager-ctl:1.14.7
-
