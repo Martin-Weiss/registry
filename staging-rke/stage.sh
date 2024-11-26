@@ -36,11 +36,11 @@ function _COPY_IMAGES {
                         echo TARGET_IMAGE is $TARGET_IMAGE
 			# find out if target image already exists
 			#if ./docker-ls tags --registry https://$TARGET_REGISTRY --allow-insecure --basic-auth -u $PULL_USER -p $PULL_PASSWORD $IMAGE|grep ^-|sed 's/^-//g'|sed 's/"//g'|grep $TAG; then
-			if $SKOPEO inspect --tls-verify=false docker://"$TARGET_IMAGE" --creds "$PUSH_USER":"$PUSH_PASSWORD" >/dev/null 2>&1 ; then
+			if $SKOPEO inspect --tls-verify=false docker://"$TARGET_IMAGE" --creds "$PUSH_USER":"$PUSH_PASSWORD --multi-arch system" >/dev/null 2>&1 ; then
 				echo $TARGET_IMAGE already exists
 			else
-                        	echo $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://"$SOURCE_IMAGE" docker://"$TARGET_IMAGE" --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD"
-	                       $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://"$SOURCE_IMAGE" docker://"$TARGET_IMAGE" --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD"
+                        	echo $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://"$SOURCE_IMAGE" docker://"$TARGET_IMAGE" --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD --multi-arch system"
+	                       $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://"$SOURCE_IMAGE" docker://"$TARGET_IMAGE" --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD --multi-arch system"
 		       fi
                         if [ ! $? == "0" ]; then
                                 echo "Error while copying source image:$SOURCE_IMAGE to target image: $TARGET_IMAGE" >> stage-image-error.log
