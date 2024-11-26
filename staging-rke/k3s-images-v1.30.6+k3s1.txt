@@ -1,0 +1,16 @@
+docker.io/rancher/klipper-helm:v0.9.3-build20241008
+docker.io/rancher/klipper-lb:v0.4.9
+docker.io/rancher/local-path-provisioner:v0.0.30
+docker.io/rancher/mirrored-coredns-coredns:1.11.3
+docker.io/rancher/mirrored-library-busybox:1.36.1
+docker.io/rancher/mirrored-library-traefik:2.11.10
+docker.io/rancher/mirrored-metrics-server:v0.7.2
+docker.io/rancher/mirrored-pause:3.6
+registry.rancher.com/rancher/klipper-helm:v0.9.3-build20241008
+registry.rancher.com/rancher/klipper-lb:v0.4.9
+registry.rancher.com/rancher/local-path-provisioner:v0.0.30
+registry.rancher.com/rancher/mirrored-coredns-coredns:1.11.3
+registry.rancher.com/rancher/mirrored-library-busybox:1.36.1
+registry.rancher.com/rancher/mirrored-library-traefik:2.11.10
+registry.rancher.com/rancher/mirrored-metrics-server:v0.7.2
+registry.rancher.com/rancher/mirrored-pause:3.6
