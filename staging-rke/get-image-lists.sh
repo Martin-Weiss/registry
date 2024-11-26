@@ -11,6 +11,7 @@
 #RKE2_VERSIONS="v1.28.10+rke2r1"
 #RKE2_VERSIONS="v1.28.12+rke2r1"
 RKE2_VERSIONS="v1.28.13+rke2r1 v1.29.8+rke2r1 v1.30.4+rke2r1"
+K3S_VERSIONS="v1.30.6+k3s1"
 
 #RANCHER_VERSIONS="v2.5.5 v2.5.7 v2.5.8 v2.5.9 v2.5.11 v2.6.0 v2.6.1 v2.6.2 v2.6.3 v2.6.4 v2.6.5 v2.6.6 v2.6.7"
 #RANCHER_VERSIONS="v2.6.8 v2.6.9 v2.7.0"
@@ -26,7 +27,9 @@ RKE2_VERSIONS="v1.28.13+rke2r1 v1.29.8+rke2r1 v1.30.4+rke2r1"
 #RANCHER_VERSIONS="v2.8.3"
 #RANCHER_VERSIONS="v2.8.4"
 #RANCHER_VERSIONS="v2.8.5"
-RANCHER_VERSIONS="v2.9.1"
+#RANCHER_VERSIONS="v2.9.1"
+#RANCHER_VERSIONS="v2.9.2"
+RANCHER_VERSIONS="v2.9.3"
 
 #HARVESTER_VERSIONS_OLD="v1.1.2 v1.2.0"
 #HARVESTER_VERSIONS_OLD="v1.2.1"
@@ -53,6 +56,24 @@ for RKE2_VERSION in $RKE2_VERSIONS; do
         echo MINUS_VERSION is $MINUS_VERSION
         echo "docker.io/rancher/rke2-upgrade:$MINUS_VERSION" > rke2-upgrade-images-$MINUS_VERSION.txt
         echo "registry.rancher.com/rancher/rke2-upgrade:$MINUS_VERSION" >> rke2-upgrade-images-$MINUS_VERSION.txt
+
+done
+
+# K3S
+for K3S_VERSION in $K3S_VERSIONS; do
+        wget -N "https://github.com/k3s-io/k3s/releases/download/$K3S_VERSION/k3s-images.txt" -O k3s-images-$K3S_VERSION.txt
+        # adding registry.rancher.com as well
+        cat k3s-images-$K3S_VERSION.txt|sed 's/docker.io/registry.rancher.com/g' >> k3s-images-$K3S_VERSION.txt
+
+        # missing images for rancher based upgrade or deployment
+        MINUS_VERSION=$(echo $K3S_VERSION|sed 's/+/-/g')
+        echo "docker.io/rancher/system-agent-installer-k3s:$MINUS_VERSION" > system-agent-installer-$MINUS_VERSION.txt
+        echo "registry.rancher.com/rancher/system-agent-installer-k3s:$MINUS_VERSION" >> system-agent-installer-$MINUS_VERSION.txt
+
+        MINUS_VERSION=$(echo $K3S_VERSION|sed 's/+/-/g')
+        echo MINUS_VERSION is $MINUS_VERSION
+        echo "docker.io/rancher/k3s-upgrade:$MINUS_VERSION" > k3s-upgrade-images-$MINUS_VERSION.txt
+        echo "registry.rancher.com/rancher/k3s-upgrade:$MINUS_VERSION" >> k3s-upgrade-images-$MINUS_VERSION.txt
 
 done
 
