@@ -1,0 +1,2 @@
+docker.io/rancher/system-agent-installer-k3s:v1.31.4-k3s1
+registry.rancher.com/rancher/system-agent-installer-k3s:v1.31.4-k3s1

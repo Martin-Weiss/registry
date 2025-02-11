@@ -1,0 +1,4 @@
+registry.rancher.com/rancher/mirrored-pause:3.6
+registry.rancher.com/rancher/rke2-runtime:v1.30.4-rke2r1-windows-amd64
+docker.io/rancher/mirrored-pause:3.6
+docker.io/rancher/rke2-runtime:v1.30.4-rke2r1-windows-amd64

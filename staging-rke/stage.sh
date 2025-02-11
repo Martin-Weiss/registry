@@ -39,8 +39,8 @@ function _COPY_IMAGES {
 			if $SKOPEO inspect --tls-verify=false docker://"$TARGET_IMAGE" --creds "$PUSH_USER":"$PUSH_PASSWORD --multi-arch system" >/dev/null 2>&1 ; then
 				echo $TARGET_IMAGE already exists
 			else
-                        	echo $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://"$SOURCE_IMAGE" docker://"$TARGET_IMAGE" --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD --multi-arch system"
-	                       $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://"$SOURCE_IMAGE" docker://"$TARGET_IMAGE" --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD --multi-arch system"
+                        	echo $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://"$SOURCE_IMAGE" docker://"$TARGET_IMAGE" --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD --multi-arch all"
+	                       $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://"$SOURCE_IMAGE" docker://"$TARGET_IMAGE" --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD --multi-arch all"
 		       fi
                         if [ ! $? == "0" ]; then
                                 echo "Error while copying source image:$SOURCE_IMAGE to target image: $TARGET_IMAGE" >> stage-image-error.log

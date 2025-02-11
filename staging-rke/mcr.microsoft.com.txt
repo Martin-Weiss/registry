@@ -1,0 +1,2 @@
+mcr.microsoft.com/windows/servercore:ltsc2022
+mcr.microsoft.com/windows/servercore:ltsc2025

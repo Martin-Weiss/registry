@@ -10,8 +10,11 @@
 #RKE2_VERSIONS="v1.27.12+rke2r1"
 #RKE2_VERSIONS="v1.28.10+rke2r1"
 #RKE2_VERSIONS="v1.28.12+rke2r1"
-RKE2_VERSIONS="v1.28.13+rke2r1 v1.29.8+rke2r1 v1.30.4+rke2r1"
-K3S_VERSIONS="v1.30.6+k3s1"
+#RKE2_VERSIONS="v1.28.13+rke2r1 v1.29.8+rke2r1 v1.30.4+rke2r1"
+RKE2_VERSIONS="v1.31.4+rke2r1 v1.30.8+rke2r1"
+
+#K3S_VERSIONS="v1.30.6+k3s1"
+K3S_VERSIONS="v1.30.8+k3s1 v1.31.4+k3s1"
 
 #RANCHER_VERSIONS="v2.5.5 v2.5.7 v2.5.8 v2.5.9 v2.5.11 v2.6.0 v2.6.1 v2.6.2 v2.6.3 v2.6.4 v2.6.5 v2.6.6 v2.6.7"
 #RANCHER_VERSIONS="v2.6.8 v2.6.9 v2.7.0"
@@ -29,7 +32,10 @@ K3S_VERSIONS="v1.30.6+k3s1"
 #RANCHER_VERSIONS="v2.8.5"
 #RANCHER_VERSIONS="v2.9.1"
 #RANCHER_VERSIONS="v2.9.2"
-RANCHER_VERSIONS="v2.9.3"
+#RANCHER_VERSIONS="v2.9.3"
+#RANCHER_VERSIONS="v2.9.4"
+#RANCHER_VERSIONS="v2.10.1"
+RANCHER_VERSIONS="v2.10.2"
 
 #HARVESTER_VERSIONS_OLD="v1.1.2 v1.2.0"
 #HARVESTER_VERSIONS_OLD="v1.2.1"
@@ -38,7 +44,9 @@ HARVESTER_VERSIONS_OLD="v1.2.2"
 #with 1.3.0 the image txt source changed
 #HARVESTER_VERSIONS_NEW="v1.3.0"
 #HARVESTER_VERSIONS_NEW="v1.3.1"
-HARVESTER_VERSIONS_NEW="v1.3.2"
+#HARVESTER_VERSIONS_NEW="v1.3.2"
+#HARVESTER_VERSIONS_NEW="v1.4.0"
+HARVESTER_VERSIONS_NEW="v1.4.1"
 
 # RKE2
 for RKE2_VERSION in $RKE2_VERSIONS; do
@@ -80,7 +88,8 @@ done
 # Rancher
 for RANCHER_VERSION in $RANCHER_VERSIONS; do
 	#wget -N "https://github.com/rancher/rancher/releases/download/$RANCHER_VERSION/rancher-images.txt" -O rancher-images-$RANCHER_VERSION.txt; sed -i "s#^#docker.io/#g" rancher-images-$RANCHER_VERSION.txt
-	wget -N "https://github.com/rancher/rancher/releases/download/$RANCHER_VERSION/rancher-images.txt" -O rancher-images-$RANCHER_VERSION.txt; sed -i "s#^#registry.rancher.com/#g" rancher-images-$RANCHER_VERSION.txt
+	#wget -N "https://github.com/rancher/rancher/releases/download/$RANCHER_VERSION/rancher-images.txt" -O rancher-images-$RANCHER_VERSION.txt; sed -i "s#^#registry.rancher.com/#g" rancher-images-$RANCHER_VERSION.txt
+	wget -N "https://prime.ribs.rancher.io/rancher/$RANCHER_VERSION/rancher-images.txt" -O rancher-images-$RANCHER_VERSION.txt; sed -i "s#^#registry.rancher.com/#g" rancher-images-$RANCHER_VERSION.txt
 done
 
 # Harvester
