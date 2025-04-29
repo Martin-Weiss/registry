@@ -1,0 +1,2 @@
+rancher-v2.11-charts,https://raw.githubusercontent.com/rancher/charts/release-v2.11,rancher-monitoring,106.0.1+up66.7.1-rancher.10
+rancher-v2.11-charts,https://raw.githubusercontent.com/rancher/charts/release-v2.11,rancher-monitoring-crd,106.0.1+up66.7.1-rancher.10

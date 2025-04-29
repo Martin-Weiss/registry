@@ -1,0 +1,2 @@
+TARGET_REGISTRY="registry01.suse"
+TARGET_PROJECT="helm"
