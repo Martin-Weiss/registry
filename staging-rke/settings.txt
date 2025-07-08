@@ -73,6 +73,8 @@ rancher-images-v2.10.1.txt \
 rancher-images-v2.10.2.txt \
 rancher-images-v2.10.4.txt \
 rancher-images-v2.11.1.txt \
+rancher-images-v2.11.2.txt \
+rancher-images-v2.11.3.txt \
 rke2-upgrade-images-v1.20.15-rke2r1.txt \
 rke2-upgrade-images-v1.21.11-rke2r1.txt \
 rke2-upgrade-images-v1.21.12-rke2r2.txt \
@@ -182,6 +184,7 @@ harvester-v1.4.0.txt \
 harvester-v1.4.1.txt \
 harvester-v1.4.2.txt \
 harvester-v1.5.0.txt \
+harvester-v1.5.1.txt \
 k3s-images-v1.30.6+k3s1.txt \
 k3s-upgrade-images-v1.30.6-k3s1.txt \
 system-agent-installer-v1.30.6-k3s1.txt \
