@@ -19,10 +19,10 @@ cd ..
 #chown -R 10000:10000 /data/harbor/data/trivy-pv
 
 # trivi-db #v2
-if grep "data" .gitignore; then echo "data already in .gitignore"; else echo "data" >>.gitignore; fi
-mkdir -p /data/harbor/data/trivy-pv/trivy/
-cd /data/harbor/data/trivy-pv/trivy/
-wget -N https://github.com/aquasecurity/trivy/releases/download/v$TRIVY_VERSION/trivy_"$TRIVY_VERSION"_Linux-64bit.tar.gz
-tar xzvf trivy_"$TRIVY_VERSION"_Linux-64bit.tar.gz
-./trivy --cache-dir /data/harbor/data/trivy-pv/trivy image --download-db-only
-chown -R 10000:10000 /data/harbor/data/trivy-pv
+#if grep "data" .gitignore; then echo "data already in .gitignore"; else echo "data" >>.gitignore; fi
+#mkdir -p /data/harbor/data/trivy-pv/trivy/
+#cd /data/harbor/data/trivy-pv/trivy/
+#wget -N https://github.com/aquasecurity/trivy/releases/download/v$TRIVY_VERSION/trivy_"$TRIVY_VERSION"_Linux-64bit.tar.gz
+#tar xzvf trivy_"$TRIVY_VERSION"_Linux-64bit.tar.gz
+#./trivy --cache-dir /data/harbor/data/trivy-pv/trivy image --download-db-only
+#chown -R 10000:10000 /data/harbor/data/trivy-pv
