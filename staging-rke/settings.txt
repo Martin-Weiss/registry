@@ -44,6 +44,7 @@ cert-manager-v1.11.1.txt \
 cert-manager-v1.12.1.txt \
 cert-manager-v1.13.2.txt \
 cert-manager-v1.15.0.txt \
+cert-manager-v1.16.3.txt \
 rancher-images-v2.6.4.txt \
 rancher-images-v2.6.5.txt \
 rancher-images-v2.6.6.txt \
@@ -195,5 +196,39 @@ nvidia.txt \
 ollama.txt \
 rke2-images.windows-amd64-v1.30.4-rke2r1.txt \
 mcr.microsoft.com.txt \
+kiosk.txt \
+system-agent-installer-v1.31.7-rke2r1.txt \
+rke2-images.linux-amd64-v1.31.7+rke2r1.txt \
+rke2-upgrade-images-v1.31.7-rke2r1.txt \
+k3s-images-v1.31.7+k3s1.txt \
+system-agent-installer-v1.31.7-k3s1.txt \
+k3s-upgrade-images-v1.31.7-k3s1.txt \
+rancher-images-v2.12.1.txt \
+harvester-v1.2.2.txt \
+harvester-v1.6.0.txt \
+rancher-images-v2.12.2.txt \
+system-agent-installer-v1.32.8-rke2r1.txt \
+rke2-images.linux-amd64-v1.32.8+rke2r1.txt \
+rke2-upgrade-images-v1.32.8-rke2r1.txt \
+rke2-images.linux-amd64-v1.32.9+rke2r1.txt \
+system-agent-installer-v1.32.9-rke2r1.txt \
+rke2-upgrade-images-v1.32.9-rke2r1.txt \
+system-agent-installer-v1.33.5-rke2r1.txt \
+rke2-images.linux-amd64-v1.33.5+rke2r1.txt \
+rke2-upgrade-images-v1.33.5-rke2r1.txt \
+k3s-images-v1.32.8+k3s1.txt \
+system-agent-installer-v1.32.8-k3s1.txt \
+k3s-upgrade-images-v1.32.8-k3s1.txt \
+k3s-images-v1.32.9+k3s1.txt \
+system-agent-installer-v1.32.9-k3s1.txt \
+k3s-upgrade-images-v1.32.9-k3s1.txt \
+system-agent-installer-v1.33.5-k3s1.txt \
+k3s-images-v1.33.5+k3s1.txt \
+k3s-upgrade-images-v1.33.5-k3s1.txt \
+harvester-v1.6.1.txt \
+rancher-images-v2.13.3.txt \
+harvester-v1.7.1.txt \
 "
-
+FILES=" \
+appcatalog.txt \
+"
