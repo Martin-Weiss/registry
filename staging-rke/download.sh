@@ -30,16 +30,16 @@ for FILE in $FILES; do
 			if [ $FILE == "stackstate.txt" ]; then
 				PULL_USER=$stackstate_PULL_USER
 				PULL_PASSWORD=$stackstate_PULL_PASSWORD
-			echo $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --src-creds "$PULL_USER":"$PULL_PASSWORD"  --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch all;
-			$SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch all;
+			echo $SKOPEO copy --all --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --src-creds "$PULL_USER":"$PULL_PASSWORD"  --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch all;
+			$SKOPEO copy --all --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch all;
 	  		elif [ $FILE == "appcatalog.txt" ]; then
                                 PULL_USER=$appcatalog_PULL_USER
                                 PULL_PASSWORD=$appcatalog_PULL_PASSWORD
-			echo $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --src-creds "$PULL_USER":"$PULL_PASSWORD"  --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch all;
-			$SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch all;
+			echo $SKOPEO copy --all --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --src-creds "$PULL_USER":"$PULL_PASSWORD"  --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch all;
+			$SKOPEO copy --all --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --src-creds "$PULL_USER":"$PULL_PASSWORD" --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch all;
 			else
-			echo $SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch system;
-			$SKOPEO copy --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch all;
+			echo $SKOPEO copy --all --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch system;
+			$SKOPEO copy --all --src-tls-verify=false --dest-tls-verify=false docker://$IMAGE docker://$TARGET_REGISTRY/$TARGET_STAGE$IMAGE --dest-creds "$PUSH_USER":"$PUSH_PASSWORD" --multi-arch all;
                         fi
 		        if [ ! $? == "0" ]; then
 				echo "error downloading $IMAGE" >> image-download-error$STAGE.log

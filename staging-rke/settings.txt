@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #SKOPEO_IMAGE="quay.io/skopeo/stable:v1.17.0"
-SKOPEO_IMAGE="dp.apps.rancher.io/containers/skopeo:1.17.0"
+#SKOPEO_IMAGE="dp.apps.rancher.io/containers/skopeo:1.22.2-13.1"
+SKOPEO_IMAGE="dp.apps.rancher.io/containers/skopeo@sha256:0006f9c3dcc255afacfea2b115337e65c095a4b663c142ce191817554f1ad64b"
 
 PULL_USER="staging"
 PULL_PASSWORD="KUSLjyvg8-bKKgfZhtiQ"
@@ -228,7 +229,10 @@ k3s-upgrade-images-v1.33.5-k3s1.txt \
 harvester-v1.6.1.txt \
 rancher-images-v2.13.3.txt \
 harvester-v1.7.1.txt \
+rancher-images-v2.13.4.txt \
+harvester-v1.8.0.txt \
 "
 FILES=" \
-appcatalog.txt \
+rancher-images-v2.13.4.txt \
+harvester-v1.8.0.txt \
 "
