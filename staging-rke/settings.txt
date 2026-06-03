@@ -2,7 +2,8 @@
 
 #SKOPEO_IMAGE="quay.io/skopeo/stable:v1.17.0"
 #SKOPEO_IMAGE="dp.apps.rancher.io/containers/skopeo:1.22.2-13.1"
-SKOPEO_IMAGE="dp.apps.rancher.io/containers/skopeo@sha256:0006f9c3dcc255afacfea2b115337e65c095a4b663c142ce191817554f1ad64b"
+#SKOPEO_IMAGE="dp.apps.rancher.io/containers/skopeo@sha256:0006f9c3dcc255afacfea2b115337e65c095a4b663c142ce191817554f1ad64b"
+SKOPEO_IMAGE="dp.apps.rancher.io/containers/skopeo:1.23.0-13.4"
 
 PULL_USER="staging"
 PULL_PASSWORD="KUSLjyvg8-bKKgfZhtiQ"
@@ -231,8 +232,9 @@ rancher-images-v2.13.3.txt \
 harvester-v1.7.1.txt \
 rancher-images-v2.13.4.txt \
 harvester-v1.8.0.txt \
+rancher-images-v2.14.1.txt \
+rancher-images-v2.14.2.txt \
 "
 FILES=" \
-rancher-images-v2.13.4.txt \
-harvester-v1.8.0.txt \
+rancher-images-v2.14.2.txt \
 "
